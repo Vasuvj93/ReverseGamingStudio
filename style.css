@@ -12,12 +12,12 @@ body{
     gap: 10px;
     align-items: center;
     background-color: #FEFEFE;
-    position: relative;
     z-index: 1010;
     box-shadow: 0 2px 4px rgba(6, 17, 118, .08), 0 4px 12px rgba(6, 17, 118, .08);
-    z-index: 1010;
     flex-wrap: wrap;
     flex-basis: auto;
+   position: sticky;
+   top: 0;
     
 }
 .navbar__s1__title{
@@ -68,15 +68,45 @@ body{
 
 .Image img{
     width: 100%;
+    position: relative;
+    
+}
+.Image__Lost{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    color: white;
+}
+.Image__Lost h1{
+    font-size: 60px;
+}
+.Image__Lost p{
+    margin-right: 400px;
+    font-size: 20px;
+    position: relative;
+    right: 150px;
+    margin-top: 10px;
+}
+.Image__Lost h2{
+    margin-right: 400px;
+    font-size: 30px;
+    position: relative;
+    right: 150px;
+    margin-top: 10px;
+}
+.Image__Lost img{
+    width: 250px;
+    margin-left: 70px;
+    margin-top: 10px;
 }
 .Game__Info{
     padding-left: 75px;
     margin-top: 25px;
     justify-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
-.Game__Info h1{
-    text-align: start;
-}
+
 .Game__Info img{
     margin-top: 10px;
     display: inline-flex;
