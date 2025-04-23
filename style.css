@@ -69,6 +69,19 @@ body{
 .Image img{
     width: 100%;
 }
+.Game__Info{
+    padding-left: 75px;
+    margin-top: 25px;
+    justify-items: center;
+}
+.Game__Info h1{
+    text-align: start;
+}
+.Game__Info img{
+    margin-top: 10px;
+    display: inline-flex;
+    
+}
 
 .description{
     padding: 75px;
