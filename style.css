@@ -300,3 +300,53 @@ body {
 .Footer__one__s4 button:hover {
     cursor: pointer;
 }
+@media screen and (max-width:600px) {
+    
+.Image__Lost {
+    position: absolute;
+    top: 150px;
+    color: white;
+    align-items: start;
+}
+
+.Image__Lost h1 {
+    font-size: 20px;
+    position: relative;
+    right: 150px;
+   
+}
+
+.Image__Lost p {   
+ font-size: 10px;
+ position: relative;
+ width: 250px;
+ margin-top: 2px;
+}
+
+.Image__Lost h2 {
+    display: none;
+}
+.line2{
+    display: none;
+}
+
+.Image__Lost img {
+    width: 100px;
+    margin-inline-start: -90px;
+    margin-top: 10px;
+    transition: 1s;
+    transform: scale(1);
+}
+
+.Image__Lost img:hover {
+    transition: 1s;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.Game__Info{
+    width: 300px;
+}
+
+    
+    
+}
