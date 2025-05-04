@@ -347,6 +347,7 @@ body {
         cursor: pointer;
     
 }
+}
 @media screen and (max-width:600px) {
     
 .Image__Lost {
@@ -395,6 +396,7 @@ body {
 }
 body{
     font-size: 16px;
-}   
-
+}  
 }
+ 
+
